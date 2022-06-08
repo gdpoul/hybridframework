@@ -18,7 +18,5 @@ public class GetAttribute {
 		WebElement usertextbox = driver.findElement(By.name("username"));
 		String value = usertextbox.getAttribute("type");
 		System.out.println(value);
-
 	}
-
 }
