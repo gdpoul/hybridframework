@@ -9,7 +9,7 @@ public class Remo {
 	public void b()
 	{
 		System.out.println(1/0);
-		Reporter.log("Remo class method", true);
+		Reporter.log("Remo  method", true);
 	}
 
 }
