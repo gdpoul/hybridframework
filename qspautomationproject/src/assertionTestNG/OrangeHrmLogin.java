@@ -54,7 +54,7 @@ public class OrangeHrmLogin {
 		Thread.sleep(3000);
 		
 		String homePageTitle = driver.getTitle();
-		softAssert.assertEquals(homePageTitle,"OrangeHRMHomePage");	
+		softAssert.assertEquals(homePageTitle,"OrangeHRM");	
 		
 		Reporter.log("create User",true);
 		Reporter.log("Create Contact",true);
