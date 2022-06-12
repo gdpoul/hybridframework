@@ -8,8 +8,8 @@ public class Fibo {
 		System.out.print(f0+" "+f1+" ");
 		for(int i=1;i<=10;i++)
 		{
-			int f=f0+f1;
-			System.out.print(f+" ");
+			int fn=f0+f1;
+			System.out.print(fn+" ");
 			f0=f1;
 			f1=fn;
 		}
